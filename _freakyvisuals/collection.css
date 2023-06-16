@@ -1,0 +1,142 @@
+* {
+	box-sizing: border-box;
+  }
+  
+  body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+  }
+  
+  header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+  }
+  
+  nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+  }
+  
+  nav li {
+	margin-right: 20px;
+  }
+  
+  nav a {
+	color: #fff;
+	text-decoration: none;
+  }
+  
+  main {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+  }
+
+  .container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+  animation: bounce 0.5s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+  
+  .product {
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+  }
+  
+  .product img {
+	max-width: 100%;
+  }
+  
+  .product h3 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+  }
+  
+  .product p {
+	margin-top: 5px;
+	margin-bottom: 10px;
+  }
+  
+  .product button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+  }
+  
+  .total {
+    text-align: right;
+  }
+
+  footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+  }
+
+  ion-icon {
+	font-size: 30px;
+  }
+
+  ion-icon {
+	color: white;
+  }
+  
+  @media screen and (max-width:767px){
+    ...active
+  }
+  @media screen and (max-width:767px) and (max-width:1023px){
+    ...active
+  }
+  @media screen and (max-width:1024px){
+    ...active
+  }
+  
